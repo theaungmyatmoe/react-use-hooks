@@ -2,7 +2,6 @@
   "name": "@reactuse/monorepo",
   "version": "1.0.0",
   "description": "Collection of essential SSR friendly react hooks that I have used to survive from the WTF react world",
-  "main": "index.js",
   "packageManager": "pnpm@8.4.0",
   "workspaces": [
     "packages/*"

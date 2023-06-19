@@ -1,8 +1,8 @@
 {
   "name": "@reactuse/core",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.cjs",
+  "description": "Collection of essential SSR friendly react hooks that I have used to survive from the WTF react world",
+  "main": "dist/index.cjs",
   "module": "dist/index.mjs",
   "jsdelivr": "dist/index.global.js",
   "unpkg": "dist/index.global.js",
