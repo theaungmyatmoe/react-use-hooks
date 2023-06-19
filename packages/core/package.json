@@ -1,0 +1,31 @@
+{
+  "name": "@reactuse/core",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.cjs",
+  "module": "dist/index.mjs",
+  "jsdelivr": "dist/index.global.js",
+  "unpkg": "dist/index.global.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "dev": "tsup index.ts --format esm --watch --onSuccess \"node dist/index.js\"",
+    "build": "tsup index.ts --format esm,cjs,iife --minify --dts --clean --sourcemap",
+    "start": "node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amm834/react-use-hooks.git",
+    "directory": "packages/core"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "Aung Myat Moe",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.13"
+  }
+}

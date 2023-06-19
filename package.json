@@ -1,0 +1,33 @@
+{
+  "name": "@reactuse/monorepo",
+  "version": "1.0.0",
+  "description": "Collection of essential SSR friendly react hooks that I have used to survive from the WTF react world",
+  "main": "index.js",
+  "packageManager": "pnpm@8.4.0",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev --parallel"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amm834/react-use-hooks.git"
+  },
+  "keywords": [
+    "react",
+    "hooks"
+  ],
+  "author": "Aung Myat Moe",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/amm834/react-use-hooks/issues"
+  },
+  "homepage": "https://github.com/amm834/react-use-hooks#readme",
+  "devDependencies": {
+    "taze": "^0.10.2",
+    "tsup": "^7.0.0",
+    "typescript": "^5.1.3"
+  }
+}

@@ -1,4 +1,5 @@
 .DS_Store
+.vscode
 .idea
 .nuxt
 .temp
@@ -19,3 +20,4 @@ types
 coverage
 .eslintcache
 .vitepress/cache
+.turbo
