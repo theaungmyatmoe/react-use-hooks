@@ -1,5 +1,5 @@
 {
-  "name": "@reactuse/core",
+  "name": "@reactusehooks/core",
   "version": "1.0.0",
   "description": "Collection of essential SSR friendly react hooks that I have used to survive from the WTF react world",
   "main": "dist/index.js",
@@ -7,6 +7,7 @@
   "jsdelivr": "dist/index.global.js",
   "unpkg": "dist/index.global.js",
   "types": "dist/index.d.ts",
+  "private": false,
   "scripts": {
     "dev": "tsup --watch",
     "build": "tsup",

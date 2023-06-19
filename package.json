@@ -1,5 +1,5 @@
 {
-  "name": "@reactuse/monorepo",
+  "name": "@reactusehooks/monorepo",
   "version": "1.0.0",
   "description": "Collection of essential SSR friendly react hooks that I have used to survive from the WTF react world",
   "packageManager": "pnpm@8.4.0",
