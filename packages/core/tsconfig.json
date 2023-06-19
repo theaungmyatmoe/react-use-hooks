@@ -16,7 +16,7 @@
     "declarationDir": "./types",
     "resolveJsonModule": true,
     "rootDir": ".",
-    "baseUrl": ".",
+    "baseUrl": "../..",
     "jsx": "preserve",
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
@@ -24,16 +24,16 @@
     "paths": {
       "@reactuse/core": [
         "./packages/core/index.ts"
-      ],
+      ]
     },
     "types": [
     ]
   },
   "include": [
-    "packages"
+    "."
   ],
   "exclude": [
-    "node_modules",
+    "../../node_modules",
     "**/*.md",
     "**/dist",
     "packages/.test",

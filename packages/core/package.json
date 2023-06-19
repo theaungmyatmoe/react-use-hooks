@@ -2,14 +2,14 @@
   "name": "@reactuse/core",
   "version": "1.0.0",
   "description": "Collection of essential SSR friendly react hooks that I have used to survive from the WTF react world",
-  "main": "dist/index.cjs",
+  "main": "dist/index.js",
   "module": "dist/index.mjs",
   "jsdelivr": "dist/index.global.js",
   "unpkg": "dist/index.global.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "dev": "tsup index.ts --format esm --watch --onSuccess \"node dist/index.js\"",
-    "build": "tsup index.ts --format esm,cjs,iife --minify --dts --clean --sourcemap",
+    "dev": "tsup --watch",
+    "build": "tsup",
     "start": "node dist/index.js"
   },
   "repository": {

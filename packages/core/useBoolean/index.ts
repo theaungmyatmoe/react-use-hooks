@@ -1,14 +1,14 @@
 import {useState} from 'react'
 
-type UseBooleanFn = () => [boolean, UseBooleanActions]
-type UseBooleanActions = {
+export type UseBooleanFn = (initial?: boolean) => [boolean, UseBooleanActions]
+export type UseBooleanActions = {
     setTrue: () => void
     setFalse: () => void
     toggle: () => void
 }
 
-export const useBoolean: UseBooleanFn = () => {
-    const [value, setValue] = useState(false)
+export const useBoolean: UseBooleanFn = (initial = false) => {
+    const [value, setValue] = useState(initial)
     const setTrue = () => setValue(true)
     const setFalse = () => setValue(false)
     const toggle = () => setValue((prev) => !prev)
