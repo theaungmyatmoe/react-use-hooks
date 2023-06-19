@@ -27,6 +27,8 @@
   },
   "homepage": "https://github.com/amm834/react-use-hooks#readme",
   "devDependencies": {
+    "@types/react-dom": "18.2.6",
+    "react-dom": "18.2.0",
     "taze": "^0.10.2",
     "tsup": "^7.0.0",
     "typescript": "^5.1.3"
