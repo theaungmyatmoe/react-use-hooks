@@ -15,10 +15,6 @@ const withNextra = nextra({
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     reactStrictMode: true,
-    eslint: {
-        // Eslint behaves weirdly in this monorepo.
-        ignoreDuringBuilds: true
-    },
 }
 
 export default withNextra(nextConfig)
