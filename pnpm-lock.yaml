@@ -26,6 +26,9 @@ importers:
 
   docs:
     dependencies:
+      '@reactusehooks/core':
+        specifier: '*'
+        version: link:../packages/core
       '@types/node':
         specifier: 20.3.1
         version: 20.3.1
