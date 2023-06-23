@@ -1,4 +1,4 @@
 {
   "index": "State",
-  "useIsMounted": "useIsMounted"
+  "useMounted": "useMounted"
 }
