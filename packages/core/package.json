@@ -19,7 +19,8 @@
     "directory": "packages/core"
   },
   "keywords": [
-    "react"
+    "react",
+    "hooks"
   ],
   "author": "Aung Myat Moe",
   "license": "MIT",
