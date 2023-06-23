@@ -42,9 +42,9 @@ pnpm install @reactusehooks/core
 
 List of packages in this monorepo.
 
-| Package Name                             | Version                                                                    | Size                                                                                                         |
-|------------------------------------------|----------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|
-| [`@reactusehooks/core`](./packages/core) | ![npm](https://img.shields.io/npm/v/@reactusehooks/core?style=flat-square) | ![npm bundle size (scoped)](https://img.shields.io/bundlephobia/min/@reactusehooks/core?logo=npm&style=flat) |
+| Package Name                             | Version                                                                             | Size                                                                                                                |
+|------------------------------------------|-------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|
+| [`@reactusehooks/core`](./packages/core) | ![npm](https://img.shields.io/npm/v/@reactusehooks/core?logo=npm&style=flat-square) | ![npm bundle size (scoped)](https://img.shields.io/bundlephobia/min/@reactusehooks/core?logo=npm&style=flat-square) |
 
 # Development
 
