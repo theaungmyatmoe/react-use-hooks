@@ -1,9 +1,13 @@
 {
-  "index": "Home",
+  "index": {
+    "type": "page",
+    "title": "Nextra",
+    "display": "hidden",
+    "theme": {
+      "layout": "theme"
+    }
+  },
   "get-started": "Get Started",
-  "core-hooks": "Core Hooks",
-  "github_link": {
-    "title": "React Use Hooks",
-    "href": "https://github.com/amm834/react-use-hooks"
-  }
+  "contributing": "Contributing",
+  "state": "State"
 }

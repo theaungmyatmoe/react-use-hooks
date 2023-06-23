@@ -1,0 +1,10 @@
+# useUnMounted
+
+`useUnMounted` hook take a callback function as parameter and return a function that will be called when component is unmounted.
+
+```tsx
+import { useUnMounted } from "@reactusehooks/core";
+ useUnMounted(() => {
+  console.log("unmounted");
+});
+```

@@ -1,5 +1,4 @@
 import {useEffect, useState} from "react";
-import {useMounted} from "../useMounted";
 
 
 /**
@@ -14,12 +13,6 @@ import {useMounted} from "../useMounted";
  * console.log(value) // Aung Aung
  */
 export const useLocalStorage = <T>(key: string, initialValue: T) => {
-    const isMounted = useMounted();
-
-    if (!isMounted) {
-        return [initialValue, () => {
-        }] as const
-    }
 
     const [storedValue, setStoredValue] = useState<T>(() => {
             try {
@@ -31,6 +24,7 @@ export const useLocalStorage = <T>(key: string, initialValue: T) => {
             }
         }
     )
+
 
     const setValue = (value: T | ((val: T) => T)) => {
         try {

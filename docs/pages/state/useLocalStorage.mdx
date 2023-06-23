@@ -1,0 +1,27 @@
+import UseLocalStorage from "../../components/UseLocalStorage";
+
+# useLocalStorage
+`useLocalStorage` hook that allows you to use the browser's local storage as a state.
+
+## Demo
+
+<UseLocalStorage/>
+
+
+## Usage
+
+```tsx
+import {useLocalStorage} from "@reactusehooks/core";
+
+const [user, setUser] = useLocalStorage('name', {
+        firstName: 'Aung Myat',
+        lastName: 'Moe',
+});
+
+// change user firstName and lastName from local storage
+setUser({
+        firstName: 'Aung',
+        lastName: 'Myat',
+});
+
+```

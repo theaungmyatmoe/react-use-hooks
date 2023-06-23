@@ -1,12 +1,13 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import {useMounted} from "@reactusehooks/core";
+import PlayGround from "@/components/PlayGround";
 
 const UseMounted = () => {
     const isMounted = useMounted();
     return (
-        <div className="border-1 border-gray-500 rounded-lg p-2 dark:border-gray-300">
-            {isMounted ? 'Mounted' : 'Not Mounted'}
-        </div>
+        <PlayGround>
+            <div>Is mounted: {isMounted ? 'Yes' : 'No'}</div>
+        </PlayGround>
     );
 };
 

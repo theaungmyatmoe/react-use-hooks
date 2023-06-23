@@ -1,0 +1,21 @@
+import UseBoolean from "../../components/UseBoolean";
+
+# useBoolean
+
+`useBoolean` is a React hook that provides a boolean value and functions to toggle it.
+
+## Demo
+<UseBoolean/>
+
+## Usage
+
+```tsx
+import {useBoolean} from "@reactusehooks/core";
+const [value, {setTrue, setFalse, toggle}] = useBoolean();
+
+console.log(value); // false
+
+setTrue(); // value is now true
+setFalse(); // value is now false
+toggle(); // value is now true
+```

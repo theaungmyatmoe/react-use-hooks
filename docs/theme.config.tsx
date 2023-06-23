@@ -6,10 +6,10 @@ export default {
         link: 'https://github.com/amm834/react-use-hooks',
     },
     banner: {
-        key: '2.0-release',
+        key: '1.1.0-release',
         text: (
             <a href="https://reactuse-hooks.vercel.app" target="_blank">
-                🎉 React Use Hooks 2.0 is released. Read more →
+                🎉 React Use Hooks 1.1.0 is released. Read more →
             </a>
         )
     },
