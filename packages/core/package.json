@@ -18,6 +18,7 @@
     "url": "git+https://github.com/amm834/react-use-hooks.git",
     "directory": "packages/core"
   },
+  "homepage": "https://reactuse-hooks.vercel.app",
   "keywords": [
     "react",
     "hooks"
