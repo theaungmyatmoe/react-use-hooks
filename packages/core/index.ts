@@ -1,4 +1,4 @@
 export * from './useBoolean'
-export * from './useIsClientSide'
-export * from './useIsMounted'
+export * from './useClientSide'
+export * from './useMounted'
 export * from './useLocalStorage'

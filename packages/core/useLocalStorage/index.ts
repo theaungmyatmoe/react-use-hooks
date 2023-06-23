@@ -1,13 +1,26 @@
 import {useEffect, useState} from "react";
-import {useIsMounted} from "../useIsMounted";
+import {useMounted} from "../useMounted";
 
+
+/**
+ * @name useLocalStorage
+ * @description Persist a value in local storage
+ * @param key - Key of local storage
+ * @param initialValue - Initial value
+ * @returns [storedValue, setValue] - storedValue is the value stored in local storage, setValue is a function to update the value
+ * @example
+ * const [value, setValue] = useLocalStorage('user', 'Mg Mg')
+ * setValue('Aung Aung')
+ * console.log(value) // Aung Aung
+ */
 export const useLocalStorage = <T>(key: string, initialValue: T) => {
-    const {isMounted} = useIsMounted()
+    const isMounted = useMounted();
 
     if (!isMounted) {
         return [initialValue, () => {
         }] as const
     }
+
     const [storedValue, setStoredValue] = useState<T>(() => {
             try {
                 const item = window.localStorage.getItem(key)
