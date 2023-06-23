@@ -1,5 +1,5 @@
 import {EffectCallback, useEffect} from "react";
 
-export const useEffectOnce = (effect: EffectCallback) => {
+export const useInvoke = (effect: EffectCallback) => {
     useEffect(effect, []);
 }

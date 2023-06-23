@@ -1,7 +1,7 @@
 import {useRef} from "react";
-import {useEffectOnce} from "../useEffectOnce";
+import {useInvoke} from "../useInvoke";
 
 export const useUnMounted = (fn: () => void) => {
     const fnRef = useRef(fn)
-    useEffectOnce(() => fnRef.current())
+    useInvoke(() => fnRef.current())
 }
