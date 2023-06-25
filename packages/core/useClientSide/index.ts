@@ -1,5 +1,4 @@
-import {isClientSide} from "../helpers/isClientSide";
-
+import {useEffect, useState} from "react";
 
 /**
  * @name useClientSide
@@ -13,5 +12,9 @@ import {isClientSide} from "../helpers/isClientSide";
  * }
  */
 export const useClientSide = () => {
-    return isClientSide();
+    const [isClientSide, setIsClientSide] = useState(false);
+    useEffect(() => {
+        setIsClientSide(typeof window !== 'undefined');
+    }, []);
+    return isClientSide;
 }

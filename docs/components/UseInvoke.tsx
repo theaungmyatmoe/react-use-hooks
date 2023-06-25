@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import {useInvoke} from "@reactusehooks/core";
-import PlayGround from "@/components/PlayGround";
+import PlayGround from "@/components/cards/PlayGround";
 
 const UseInvoke = () => {
     const [isInvoked, setInvoke] = useState(false)

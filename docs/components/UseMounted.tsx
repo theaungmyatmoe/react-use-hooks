@@ -1,6 +1,6 @@
 import React, {useEffect} from 'react';
 import {useMounted} from "@reactusehooks/core";
-import PlayGround from "@/components/PlayGround";
+import PlayGround from "@/components/cards/PlayGround";
 
 const UseMounted = () => {
     const isMounted = useMounted();

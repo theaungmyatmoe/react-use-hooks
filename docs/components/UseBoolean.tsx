@@ -1,5 +1,5 @@
 import React from 'react';
-import PlayGround from "@/components/PlayGround";
+import PlayGround from "@/components/cards/PlayGround";
 import {useBoolean} from "@reactusehooks/core";
 
 const UseBoolean = () => {

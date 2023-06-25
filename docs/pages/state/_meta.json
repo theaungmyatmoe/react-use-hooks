@@ -3,5 +3,6 @@
   "useMounted": "useMounted",
   "useUnMounted": "useUnMounted",
   "useLocalStorage": "useLocalStorage",
-  "useInvoke": "useInvoke"
+  "useInvoke": "useInvoke",
+  "useClientSide": "useClientSide"
 }
