@@ -1,0 +1,21 @@
+import UseInvoke from "../../components/UseInvoke";
+
+# useInvoke
+
+`useInvoke` take a function and call it only once when the component is mounted. This hook is inspired by `__invoke()`
+method in PHP.
+
+## Demo
+<UseInvoke/>
+
+
+## Usage
+
+```tsx
+import { useInvoke } from "@reactusehooks/useInvoke";
+ useInvoke(() => {
+    console.log("Invoked!");
+ });
+```
+
+

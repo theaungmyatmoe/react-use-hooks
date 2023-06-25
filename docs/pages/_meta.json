@@ -1,12 +1,4 @@
 {
-  "index": {
-    "type": "page",
-    "title": "Nextra",
-    "display": "hidden",
-    "theme": {
-      "layout": "theme"
-    }
-  },
   "get-started": "Get Started",
   "contributing": "Contributing",
   "state": "State"
