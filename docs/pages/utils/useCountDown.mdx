@@ -1,0 +1,28 @@
+import UseCountDown from "../../components/UseCountDown";
+
+# UseCountDown
+
+Hello world
+
+
+## Demo
+
+<UseCountDown/>
+
+
+## Usage
+
+```ts
+import {useCountDown} from "@reactusehooks/core";
+
+const {count, start, stop} = useCountDown(
+        new Date(Date.now() + 1000),
+        {
+            interval: 1000,
+        }
+);
+
+console.log(count); // current count
+start(); // start count down
+stop(); // stop count down
+```
