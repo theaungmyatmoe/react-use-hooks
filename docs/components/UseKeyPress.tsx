@@ -4,7 +4,7 @@ import PlayGround from "@/components/cards/PlayGround";
 
 const UseKeyPress = () => {
   const [isClicked, setIsClicked] = useState(false);
-  useKeyPress("", () => setIsClicked(true));
+  useKeyPress("ArrowDown", () => setIsClicked(true));
 
   return (
     <PlayGround>
