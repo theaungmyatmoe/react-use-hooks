@@ -1,0 +1,18 @@
+import UseKeyPress from "../../components/UseKeyPress";
+
+# useKeyPress
+
+`useKeyPress` listen the keyboard keydown events base on the key name that your have been defined.
+
+## Demo
+<UseKeyPress/>
+
+## Usage
+
+```tsx
+import {useKeyPress} from "@reactusehooks/core";
+
+useKeyPress("ArrowDown", () => {
+    console.log("ArrowDown is pressed");
+});
+```
